@@ -26,7 +26,7 @@ const AllBookings = () => {
       }
 
       try {
-        const res = await axios.get('http://localhost:8700/api/mentor/bal', {
+        const res = await axios.get('https://jee-backend.onrender.com/api/mentor/bal', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

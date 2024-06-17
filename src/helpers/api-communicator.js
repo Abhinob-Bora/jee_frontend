@@ -1,5 +1,5 @@
 import axios from "axios";
-const API = axios.create({ baseURL: `http://localhost:8700/api` });
+const API = axios.create({ baseURL: `https://jee-backend.onrender.com/api` });
 const token = localStorage.getItem("podstreamtoken");
 export const loginUser = async (email, password) => {
   const res = await API.post("/user/login", { email, password });

@@ -74,7 +74,7 @@ const MentorshipBooking = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:8700/api/mentor/booking", {
+      const response = await fetch("https://jee-backend.onrender.com/api/mentor/booking", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

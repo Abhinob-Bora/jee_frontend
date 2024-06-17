@@ -3,7 +3,7 @@ import { useSelector } from "react-redux";
 import styled from "styled-components";
 import Avatar from "@mui/material/Avatar";
 import { getUsers } from "../api/index";
-import { PodcastCard } from "../components/PodcastCard.jsx";
+
 
 const ProfileAvatar = styled.div`
   padding-left: 3rem;
